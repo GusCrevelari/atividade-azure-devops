@@ -52,5 +52,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'webapp-rm561408'
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_e8531543ed39423c83789351182bef59 }}
           package: ./app
